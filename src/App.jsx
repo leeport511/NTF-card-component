@@ -1,8 +1,8 @@
 function App() {
     return (
         <div className="flex h-screen items-center justify-center bg-very-dark-blue-mbg">
-            <div className="drop-shadow-2xl">
-                <div className="m-auto w-[85%] rounded-2xl bg-very-dark-blue-cbg p-3 xl:w-[55%] drop-shadow-2xl">
+            <div className="xl:drop-shadow-2xl">
+                <div className="m-auto w-[85%] rounded-2xl bg-very-dark-blue-cbg p-3 xl:w-[55%] xl:drop-shadow-2xl">
                     <button className="p-4">
                         <div className="static hover:z-40 hover:bg-cyan-trans">
                             <div className="relative z-0">
