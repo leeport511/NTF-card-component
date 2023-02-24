@@ -9,3 +9,12 @@
     font-family: "Outfit";
     box-sizing: border-box;
 }
+
+
+.eye-icon {
+    visibility: hidden;
+  }
+  
+  .img-btn:hover .eye-icon {
+    visibility: visible;
+  }

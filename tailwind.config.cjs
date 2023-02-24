@@ -7,7 +7,7 @@ module.exports = {
                 //primary
                 "soft-blue": 'hsl(215, 51%, 70%)',
                 'cyan': 'hsl(178, 100%, 50%)',
-                'cyan-trans': 'hsla(178, 100%, 50%, 0.6)',
+                'cyan-trans': 'hsla(178, 100%, 50%, 0.4)',
                 //neutral
                 'very-dark-blue-mbg': 'hsl(217, 54%, 11%)', //main Bg
                 'very-dark-blue-cbg': 'hsl(216, 50%, 16%)', //card Bg

@@ -1,15 +1,18 @@
 function App() {
     return (
         <div className="flex h-screen items-center justify-center bg-very-dark-blue-mbg">
-            <div className="xl:drop-shadow-2xl">
-                <div className="m-auto w-[85%] rounded-2xl bg-very-dark-blue-cbg p-3 xl:w-[55%] xl:drop-shadow-2xl">
-                    <button className="p-4">
-                        <div className="static hover:z-40 hover:bg-cyan-trans">
-                            <div className="relative z-0">
+            <div className="md:drop-shadow-2xl">
+                <div className="m-auto w-[85%] rounded-2xl bg-very-dark-blue-cbg p-3 md:w-[55%] md:drop-shadow-2xl">
+                    <button className="p-4 relative img-btn  ">
+                        <div className="relative">
+                            <div className="hover:z-40  absolute w-[100%] h-[100%] hover:bg-cyan-trans rounded-xl flex ">
+                                <img src="./images/icon-view.svg" alt="eye of agamoto" className="w-[40%] m-auto eye-icon hover:duration-600"/>
+                            </div>
+                            <div>
                                 <img
                                     src="./images/image-equilibrium.jpg"
                                     alt="cube-image"
-                                    className="rounded-xl"
+                                    className="rounded-xl z-0 "
                                 />
                             </div>
                         </div>
